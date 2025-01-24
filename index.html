@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Sample Website</h1>
+        <h1>Welcome to My Sample Website with 5 Ads</h1>
     </header>
     <nav>
         <ul>
@@ -18,21 +18,68 @@
         </ul>
     </nav>
     <main>
+        <!-- Banner Ads -->
+        <section class="ad-zone banner" id="banner1">
+            <script type="text/javascript">
+                document.write('<p>Banner Ad 1</p>');
+            </script>
+        </section>
+        <section class="ad-zone banner" id="banner2">
+            <script type="text/javascript">
+                document.write('<p>Banner Ad 2</p>');
+            </script>
+        </section>
+        <section class="ad-zone banner" id="banner3">
+            <script type="text/javascript">
+                document.write('<p>Banner Ad 3</p>');
+            </script>
+        </section>
+
+        <!-- Main Content Area -->
         <section class="content">
             <h2>Main Content Area</h2>
             <p>This is where the main content of the website will go.</p>
         </section>
-        <aside class="ad ad-left">
-            <!-- Left Ad Script Placeholder -->
+        
+        <!-- Horizontal Ads -->
+        <section class="ad-zone horizontal" id="horizontal1">
             <script type="text/javascript">
-                // Ad script goes here
+                document.write('<p>Horizontal Ad 1</p>');
+            </script>
+        </section>
+        <section class="ad-zone horizontal" id="horizontal2">
+            <script type="text/javascript">
+                document.write('<p>Horizontal Ad 2</p>');
+            </script>
+        </section>
+
+        <!-- Vertical Ad -->
+        <aside class="ad-zone vertical" id="vertical">
+            <script type="text/javascript">
+                document.write('<p>Vertical Ad</p>');
+            </script>
+        </aside>
+
+        <!-- Video Ads -->
+        <section class="ad-zone video" id="video1">
+            <script type="text/javascript">
+                document.write('<p>Video Ad 1</p>');
+            </script>
+        </section>
+        <section class="ad-zone video" id="video2">
+            <script type="text/javascript">
+                document.write('<p>Video Ad 2</p>');
+            </script>
+        </section>
+
+        <!-- Existing Left and Right Ads -->
+        <aside class="ad ad-left">
+            <script type="text/javascript">
                 document.write('<p>Ad Placeholder 1</p>');
             </script>
         </aside>
         <aside class="ad ad-right">
-            <!-- Right Ad Script Placeholder -->
             <script type="text/javascript">
-                // Ad script goes here
                 document.write('<p>Ad Placeholder 2</p>');
             </script>
         </aside>
